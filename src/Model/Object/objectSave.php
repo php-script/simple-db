@@ -10,6 +10,7 @@ trait ObjectSave
         $result = false;
 
         if ($this->modelVar(static::primaryKey()) !== null) {
+
             $result = static::query()
                 ->update(
                     $data,

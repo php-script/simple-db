@@ -5,7 +5,7 @@ namespace PhpScript\SimpleDb\Model\Object;
 use PhpScript\SimpleDb\Exceptions\ObjectException;
 use PhpScript\SimpleDb\Query;
 
-trait objectFetch
+trait ObjectFetch
 {
     public static function select($fields = '*')
     {

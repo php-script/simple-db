@@ -7,7 +7,11 @@ trait ObjectRemove
     public function remove(): bool
     {
         return static::query()
-            ->delete([static::primaryKey() => $this->modelVar(static::primaryKey())]);
+            ->delete(
+                [
+                    static::primaryKey() => $this->modelVar(static::primaryKey())
+                ]
+            );
     }
 
     public static function erase($condition): bool
