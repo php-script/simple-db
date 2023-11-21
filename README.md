@@ -289,7 +289,7 @@ var_dump($user);
 // then, save user
 $user->remove();
 
-// alt, method to update user
+// alt, method to remove user
 User::erase(['id' => 1]);
 
 // ..
@@ -472,7 +472,7 @@ Available Hooks in Database, Query Builder, and Model:
 - is_mysql()
 - paginator()
 
-## Direct Usage of Simple Db
+## Direct Usage of Simple DB
 ```php
 <?php
 
