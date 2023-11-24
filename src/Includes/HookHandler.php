@@ -1,6 +1,6 @@
 <?php
 
-namespace PhpScript\SimpleDb\Includes;
+namespace VulcanPhp\SimpleDb\Includes;
 
 class HookHandler
 {

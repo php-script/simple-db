@@ -1,6 +1,6 @@
 <?php
 
-namespace PhpScript\SimpleDb\Includes\Paginator;
+namespace VulcanPhp\SimpleDb\Includes\Paginator;
 
 trait PaginatorConfigure
 {

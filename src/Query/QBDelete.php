@@ -1,9 +1,9 @@
 <?php
 
-namespace PhpScript\SimpleDb\Query;
+namespace VulcanPhp\SimpleDb\Query;
 
 use PDOException;
-use PhpScript\SimpleDb\Exceptions\QueryBuilderException;
+use VulcanPhp\SimpleDb\Exceptions\QueryBuilderException;
 
 trait QBDelete
 {

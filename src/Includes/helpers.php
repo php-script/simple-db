@@ -1,8 +1,8 @@
 <?php
 
-use PhpScript\SimpleDb\Database;
-use PhpScript\SimpleDb\Includes\Paginator\Paginator;
-use PhpScript\SimpleDb\Query;
+use VulcanPhp\SimpleDb\Database;
+use VulcanPhp\SimpleDb\Includes\Paginator\Paginator;
+use VulcanPhp\SimpleDb\Query;
 
 if (!function_exists('database_init')) {
     function database_init(array $config): Database

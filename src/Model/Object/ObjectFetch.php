@@ -1,9 +1,9 @@
 <?php
 
-namespace PhpScript\SimpleDb\Model\Object;
+namespace VulcanPhp\SimpleDb\Model\Object;
 
-use PhpScript\SimpleDb\Exceptions\ObjectException;
-use PhpScript\SimpleDb\Query;
+use VulcanPhp\SimpleDb\Exceptions\ObjectException;
+use VulcanPhp\SimpleDb\Query;
 
 trait ObjectFetch
 {

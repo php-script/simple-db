@@ -1,11 +1,11 @@
 <?php
 
-namespace PhpScript\SimpleDb;
+namespace VulcanPhp\SimpleDb;
 
 use PDO;
 use PDOException;
-use PhpScript\SimpleDb\Exceptions\DatabaseException;
-use PhpScript\SimpleDb\Includes\HookHandler;
+use VulcanPhp\SimpleDb\Exceptions\DatabaseException;
+use VulcanPhp\SimpleDb\Includes\HookHandler;
 
 class Database
 {

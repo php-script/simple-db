@@ -1,6 +1,6 @@
 <?php
 
-namespace PhpScript\SimpleDb\Model;
+namespace VulcanPhp\SimpleDb\Model;
 
 trait Validator
 {

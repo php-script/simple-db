@@ -1,9 +1,9 @@
 <?php
 
-namespace PhpScript\SimpleDb\Model;
+namespace VulcanPhp\SimpleDb\Model;
 
-use PhpScript\SimpleDb\Model\Loader;
-use PhpScript\SimpleDb\Model\Validator;
+use VulcanPhp\SimpleDb\Model\Loader;
+use VulcanPhp\SimpleDb\Model\Validator;
 
 class BaseModel
 {

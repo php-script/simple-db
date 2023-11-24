@@ -1,6 +1,6 @@
 <?php
 
-namespace PhpScript\SimpleDb\Exceptions;
+namespace VulcanPhp\SimpleDb\Exceptions;
 
 use Exception;
 

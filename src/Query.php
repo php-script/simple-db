@@ -1,16 +1,16 @@
 <?php
 
-namespace PhpScript\SimpleDb;
+namespace VulcanPhp\SimpleDb;
 
 use PDO;
-use PhpScript\SimpleDb\Database;
-use PhpScript\SimpleDb\Exceptions\QueryBuilderException;
-use PhpScript\SimpleDb\Includes\HookHandler;
-use PhpScript\SimpleDb\Query\QBCreate;
-use PhpScript\SimpleDb\Query\QBDelete;
-use PhpScript\SimpleDb\Query\QBRead;
-use PhpScript\SimpleDb\Query\QBUpdate;
-use PhpScript\SimpleDb\Query\QBWhere;
+use VulcanPhp\SimpleDb\Database;
+use VulcanPhp\SimpleDb\Exceptions\QueryBuilderException;
+use VulcanPhp\SimpleDb\Includes\HookHandler;
+use VulcanPhp\SimpleDb\Query\QBCreate;
+use VulcanPhp\SimpleDb\Query\QBDelete;
+use VulcanPhp\SimpleDb\Query\QBRead;
+use VulcanPhp\SimpleDb\Query\QBUpdate;
+use VulcanPhp\SimpleDb\Query\QBWhere;
 
 class Query
 {

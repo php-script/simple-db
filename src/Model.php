@@ -1,12 +1,12 @@
 <?php
 
-namespace PhpScript\SimpleDb;
+namespace VulcanPhp\SimpleDb;
 
-use PhpScript\SimpleDb\Query;
-use PhpScript\SimpleDb\Model\BaseModel;
-use PhpScript\SimpleDb\Model\Object\ObjectFetch;
-use PhpScript\SimpleDb\Model\Object\ObjectRemove;
-use PhpScript\SimpleDb\Model\Object\ObjectSave;
+use VulcanPhp\SimpleDb\Query;
+use VulcanPhp\SimpleDb\Model\BaseModel;
+use VulcanPhp\SimpleDb\Model\Object\ObjectFetch;
+use VulcanPhp\SimpleDb\Model\Object\ObjectRemove;
+use VulcanPhp\SimpleDb\Model\Object\ObjectSave;
 
 abstract class Model extends BaseModel
 {

@@ -6,7 +6,7 @@ Simple DB is a lightweight and easy SQL Query Builder with many common features 
 It's recommended that you use [Composer](https://getcomposer.org/) to install Simple DB
 
 ```bash
-$ composer require php-script/simple-db
+$ composer require vulcanphp/simpledb
 ```
 
 ## Create or Initialize Database
@@ -205,7 +205,7 @@ Example User Model:
 ```php
 <?php
 
-use PhpScript\SimpleDb\Model;
+use VulcanPhp\SimpleDb\Model;
 
 class User extends Model
 {
@@ -476,8 +476,8 @@ Available Hooks in Database, Query Builder, and Model:
 ```php
 <?php
 
-use PhpScript\SimpleDb\Query;
-use PhpScript\SimpleDb\Database;
+use VulcanPhp\SimpleDb\Query;
+use VulcanPhp\SimpleDb\Database;
 
 // initialize database or set some hooks
 Database::init([

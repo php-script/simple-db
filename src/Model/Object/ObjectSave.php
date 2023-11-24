@@ -1,6 +1,6 @@
 <?php
 
-namespace PhpScript\SimpleDb\Model\Object;
+namespace VulcanPhp\SimpleDb\Model\Object;
 
 trait ObjectSave
 {

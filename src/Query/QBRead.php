@@ -1,10 +1,10 @@
 <?php
 
-namespace PhpScript\SimpleDb\Query;
+namespace VulcanPhp\SimpleDb\Query;
 
 use PDOException;
-use PhpScript\SimpleDb\Exceptions\QueryBuilderException;
-use PhpScript\SimpleDb\Includes\Paginator\Paginator;
+use VulcanPhp\SimpleDb\Exceptions\QueryBuilderException;
+use VulcanPhp\SimpleDb\Includes\Paginator\Paginator;
 
 trait QBRead
 {

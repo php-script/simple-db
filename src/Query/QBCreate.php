@@ -1,6 +1,6 @@
 <?php
 
-namespace PhpScript\SimpleDb\Query;
+namespace VulcanPhp\SimpleDb\Query;
 
 use PDOException;
 

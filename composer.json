@@ -1,10 +1,10 @@
 {
-    "name": "php-script/simple-db",
+    "name": "vulcanphp/simpledb",
     "description": "Simple DB is a lightweight and easy SQL Query Builder with many common features in PHP Database Management",
     "license": "MIT",
     "autoload": {
         "psr-4": {
-            "PhpScript\\SimpleDb\\": "src/"
+            "VulcanPhp\\SimpleDb\\": "src/"
         },
         "files": [
             "src/Includes/helpers.php"
