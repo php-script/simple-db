@@ -17,7 +17,9 @@ trait Loader
     public function load($data): self
     {
         foreach ((array) $data as $key => $value) {
-            if (in_array($key, $this->fillable()) && isset($value) && (!empty($value) || $value == 0)) {
+            if ((in_array($key, $this->fillable()) || property_exists($this, $key))
+                && isset($value) && (!empty($value) || $value == 0)
+            ) {
                 $this->{$key} = $value;
             }
         }
