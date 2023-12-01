@@ -62,6 +62,9 @@ class BaseModel
 
     public function toArray(): array
     {
-        return $this->properties;
+		$properties = array_merge($this->properties, get_object_vars($this));
+        unset($properties['properties'], $properties['errors'], $properties['rules'], $properties['labels']);
+
+        return $properties;
     }
 }
