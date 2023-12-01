@@ -47,12 +47,12 @@ class BaseModel
 
     public function __get($name)
     {
-        return $this->properties[$name] ?? null;
+        return $this->properties[$name] ?? ($this->{$name} ?? null);
     }
 
     public function __isset($name): bool
     {
-        return array_key_exists($name, $this->properties) === true;
+        return ($this->properties[$name] ?? ($this->{$name} ?? null)) !== null;
     }
 
     public function __unset($name)
